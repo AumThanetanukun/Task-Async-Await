@@ -32,7 +32,6 @@ namespace AsyncAwait
             }
 
             Console.WriteLine("Line 2");
-            Console.WriteLine("Line 3");
             
             //await Task.WhenAll(t.ToArray());
             Task.WaitAll(t.ToArray());
@@ -46,8 +45,7 @@ namespace AsyncAwait
                 Console.WriteLine("Result --- " + result);
             }
 
-            Console.WriteLine("Line 4");
-            Console.WriteLine("Line 5");
+            Console.WriteLine("Line 3");
         }
 
         static int ComplexCalculation(int n)
